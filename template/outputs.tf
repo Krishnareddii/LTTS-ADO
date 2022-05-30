@@ -1,1 +1,0 @@
-name = myvm-Lttslocation = West Europe
