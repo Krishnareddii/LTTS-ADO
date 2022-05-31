@@ -1,0 +1,60 @@
+variable "client_secret"{
+type = string
+default = "LGwe1uY-Nu24dQVxO5Ue8q7SInm5uocG4J"
+}
+
+
+
+variable "subnetid"{
+type = string
+default = "mysubnet"
+}
+
+
+
+variable "location_name"{
+type = list
+default = ["eastus","westus","northus","southus"]
+}
+
+
+
+variable "vnet"{
+type = list
+default = ["myvnet","myvnet1","myvnet2","myvnet3"]
+}
+
+
+
+variable "nic"{
+default = "mynic"
+}
+
+variable "netsecuritygroup"{
+default = "mynetsecgroup"
+}
+
+variable "virtualmachine"{
+default = "vm"
+}
+
+variable "os_disk_name"{
+default = "disk"
+}
+
+
+variable "os_disk_caching"{
+default = "ReadOnly"
+}
+
+variable "os_disk_storage"{
+default = "Premium_LRS"
+}
+
+variable "mysqlserver"{
+default = "sqlserverapril"
+}
+
+variable "mysqldatabase"{
+default = "sqldatabaseapril"
+}
